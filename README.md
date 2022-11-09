@@ -9,7 +9,7 @@ used as elision markers as in: für's irgend'nem
 
 The software can be freely used for all non-commercial purposes.
 
-Installation
+## Installation
 
 In order to use the software, you have to install Python, PyTorch, and Perl.
 
