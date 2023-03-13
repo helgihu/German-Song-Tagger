@@ -71,7 +71,7 @@ def estimate_probs(pair_freq, apo_freq=None):
     # computation of the replacement probabilities
     for seq in apo_freq:
         freq = sum(apo_freq[seq].values())  # expected frequency of x ' y
-        total = 0.0                         # expected frequency of x seq y and x ' y
+        total = 0.001                       # expected frequency of x seq y and x ' y
         for elem, f in apo_freq[seq].items():
             if ' ' in seq:
                 elem1, elem2 = elem.split(' ')
